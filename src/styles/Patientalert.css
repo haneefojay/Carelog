@@ -1,0 +1,77 @@
+/* src/styles/patientsalerts.css */
+.patients-alerts-section {
+    background-color: white;
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-4);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .patients-alerts-header {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: var(--spacing-4);
+  }
+  
+  .patients-alerts-filter {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    margin-bottom: var(--spacing-4);
+  }
+  
+  .patients-alerts-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .patients-alerts-row {
+    border-bottom: 1px solid var(--gray-200);
+  }
+  
+  .patients-alerts-row:last-child {
+    border-bottom: none;
+  }
+  
+  .patients-alerts-cell {
+    padding: var(--spacing-3) var(--spacing-2);
+  }
+  
+  .patient-name {
+    font-weight: 500;
+    color: var(--gray-900);
+  }
+  
+  .patient-condition {
+    font-size: 14px;
+    color: var(--gray-600);
+  }
+  
+  .status-badge {
+    display: inline-block;
+    padding: var(--spacing-1) var(--spacing-2);
+    border-radius: var(--border-radius-md);
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .status-badge.critical {
+    background-color: var(--red-100);
+    color: var(--red-500);
+  }
+  
+  .status-badge.follow-up {
+    background-color: #DBEAFE; /* Light blue */
+    color: #2563EB; /* Blue */
+  }
+  
+  .status-badge.resolved {
+    background-color: var(--green-100);
+    color: var(--green-500);
+  }
+  
+  .patient-date {
+    font-size: 14px;
+    color: var(--gray-500);
+    text-align: right;
+  }

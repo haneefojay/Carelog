@@ -1,0 +1,263 @@
+.header {
+  display: flex;
+  min-width: 1280px;
+  height: 7.2115vh;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid var(--Black-100, #E3E3E3);
+}
+
+.logo-container {
+  display: flex;
+  width: 14.92vw;
+  padding: 0 1.5625vw;
+  align-items: center;
+  gap: 0.3125vw;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-right: 1px solid var(--Black-100, #E3E3E3);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.625vw;
+}
+
+.logo-img {
+  width: 1.9531vw;
+  height: 2.2837vh;
+}
+
+.logo-text {
+  color: var(--Blue-900, #0E2087);
+  font-family: "Instrument Sans";
+  font-size: 1.9231vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header-remainder {
+  display: flex;
+  padding: 1.2019vh;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.7812vw;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.search-container {
+  display: flex;
+  width: 35.7812vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3906vw;
+  padding: 0 0.7812vw;
+  align-self: stretch;
+  border-radius: 10px;
+  border: 1px solid var(--Black-100, #E3E3E3);
+}
+
+.searching {
+  width: 33.4375vw;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-right: 1px solid #E3E3E3;
+  font-family: "Instrument Sans";
+}
+
+.searching::placeholder {
+  color: var(--Black-400, #8E8E8E);
+  font-family: "Instrument Sans";
+  font-size: 1.9231vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: start;
+}
+
+.search-icon {
+  display: flex;
+  width: 1.4062vw;
+  height: 1.4062vw;
+  padding: 0.2705vh;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 10px;
+  border: 1px solid var(--Black-100, #E3E3E3);
+}
+
+.date-picker {
+  display: flex;
+  padding: 0.9615vh;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625vw;
+  align-self: stretch;
+  border-right: 1px solid var(--Black-100, #E3E3E3);
+}
+
+.date-picker-icon {
+  display: flex;
+  width: 1.875vw;
+  height: 1.875vw;
+  padding: 0.2404vh 0.3606vh;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
+
+.date-picker-text {
+  color: var(--Black-800, #1C1C1C);
+  font-family: "Instrument Sans";
+  font-size: 1.5625vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dropdown {
+  display: flex;
+  padding: 0.9615vh;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625vw;
+  align-self: stretch;
+}
+
+.dropdown-button-text {
+  color: var(--Black-800, #1C1C1C);
+  font-family: "Instrument Sans";
+  font-size: 1.5625vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dropdown-button {
+  width: 1.25vw;
+  height: 1.25vw;
+  aspect-ratio: 1/1;
+  border: none;
+  background: transparent;
+}
+
+.dropdown-menu {
+  display: flex;
+  width: 8.2031vw;
+  padding: 0.601vh 0;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 6.9712vh;
+  border-radius: 8px;
+  border: 1px solid var(--Black-100, #E3E3E3);
+  background: #FFF;
+}
+
+.dropdown-item:hover {
+  background-color: var(--gray-100);
+}
+
+.dropdown-item {
+  display: flex;
+  padding: 0.601vh 2.1094vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7812vw;
+  align-self: stretch;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--Black-100, #E3E3E3);
+}
+
+.dropdown-item-3 {
+  display: flex;
+  padding: 0.601vh 2.1094vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7812vw;
+  align-self: stretch;
+  background: transparent;
+  border: none;
+}
+
+.dropdown-text {
+  color: var(--Black-500, #717171);
+  font-family: "Instrument Sans";
+  font-size: 1.4423vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dropdown-text-2 {
+  color: var(--Black-500, #717171);
+  font-family: "Instrument Sans";
+  font-size: 1.3221vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.user-profile {
+  display: flex;
+  padding: 1.0817vh 1.7188vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625vw;
+  border-left: 1px solid var(--Black-100, #E3E3E3);
+}
+
+.user-avatar {
+  width: 5.0481vh;
+  height: 5.0481vh;
+  aspect-ratio: 1/1;
+  border-radius: 1000px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-name {
+  color: var(--Black-700, #393939);
+  font-family: "Instrument Sans";
+  font-size: 1.5625vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.user-role {
+  align-self: stretch;
+  color: var(--Black-400, #8E8E8E);
+  font-family: "Instrument Sans";
+  font-size: 1.5625vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

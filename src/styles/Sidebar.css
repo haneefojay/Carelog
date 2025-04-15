@@ -1,0 +1,46 @@
+.sidebar{
+  display: flex;
+  width:  15vw;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-right: 1px solid var(--Black-100, #E3E3E3);
+  border-bottom: 1px solid var(--Black-100, #E3E3E3);
+  border-left: 1px solid var(--Black-100, #E3E3E3);
+}
+
+.sidebar-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.nav-link{
+  display: flex;
+  padding: 9px 16px;
+  align-items: center;
+  gap: 14px;
+  align-self: stretch;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.nav-link.active{
+  background: #F9F9F9;
+}
+
+.nav-text{
+  color: var(--Black-600, #555);
+  font-family: "Instrument Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+

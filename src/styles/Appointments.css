@@ -1,0 +1,226 @@
+.appointments-section {
+    background-color: white;
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-4);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .appointments-header {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: var(--spacing-4);
+  }
+  
+  .progress-container {
+    margin-bottom: var(--spacing-4);
+  }
+  
+  .progress-text {
+    font-size: 14px;
+    color: var(--gray-600);
+    margin-bottom: var(--spacing-2);
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: var(--gray-200);
+    border-radius: var(--border-radius-full);
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: var(--primary-blue);
+    border-radius: var(--border-radius-full);
+  }
+  
+  .filter-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-4);
+  }
+  
+  .filter-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+  }
+  
+  .filter-label {
+    font-size: 14px;
+    color: var(--gray-600);
+  }
+  
+  .filter-button {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-1);
+    border: 1px solid var(--gray-300);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-1) var(--spacing-2);
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .filter-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: var(--spacing-1);
+    width: 120px;
+    background-color: white;
+    border: 1px solid var(--gray-200);
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-md);
+    z-index: 10;
+  }
+  
+  .filter-option {
+    padding: var(--spacing-2) var(--spacing-4);
+    font-size: 14px;
+    color: var(--gray-700);
+    cursor: pointer;
+  }
+  
+  .filter-option:hover {
+    background-color: var(--gray-100);
+  }
+  
+  .filter-option.active {
+    background-color: #EEF2FF;
+    font-weight: 500;
+  }
+  
+  .appointment-actions {
+    display: flex;
+    gap: var(--spacing-4);
+  }
+  
+  .action-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .action-button.primary {
+    color: var(--gray-600);
+  }
+  
+  .action-button.primary:hover {
+    color: var(--primary-blue);
+  }
+  
+  .action-button.danger {
+    color: var(--red-500);
+  }
+  
+  .action-button.danger:hover {
+    color: #DC2626; /* Darker red */
+  }
+  
+  .appointment-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-3);
+  }
+  
+  .appointment-item {
+    border: 1px solid var(--gray-200);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-3);
+  }
+  
+  .appointment-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .appointment-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .appointment-title {
+    font-weight: 500;
+    color: var(--gray-900);
+    margin-bottom: var(--spacing-1);
+  }
+  
+  .appointment-time {
+    font-size: 14px;
+    color: var(--gray-500);
+  }
+  
+  .appointment-buttons {
+    display: flex;
+    gap: var(--spacing-2);
+  }
+  
+  .resolved-badge {
+    display: flex;
+    align-items: center;
+    color: var(--green-500);
+    font-size: 14px;
+  }
+  
+  .resolved-icon {
+    margin-right: var(--spacing-1);
+  }
+  
+  .resolve-button {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-blue);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+  }
+  
+  .resolve-button:hover {
+    background-color: var(--primary-blue-dark);
+  }
+  
+  .delete-button {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: var(--red-500);
+    border: 1px solid var(--red-500);
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: var(--red-100);
+  }
+  
+  .mark-resolved-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-2);
+    background-color: var(--primary-blue);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-2) var(--spacing-4);
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .mark-resolved-button:hover {
+    background-color: var(--primary-blue-dark);
+  }
