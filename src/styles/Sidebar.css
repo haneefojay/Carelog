@@ -1,7 +1,8 @@
-.sidebar{
+.sidebar {
   display: flex;
-  width:  15vw;
-  padding: 10px;
+  width: 14.92vw;
+  height: 92.79vh;
+  padding: 1.20vh;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -9,38 +10,127 @@
   align-self: stretch;
   border-right: 1px solid var(--Black-100, #E3E3E3);
   border-bottom: 1px solid var(--Black-100, #E3E3E3);
-  border-left: 1px solid var(--Black-100, #E3E3E3);
 }
 
-.sidebar-nav{
+.sidebar-nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 1.20vh;
   align-self: stretch;
 }
 
-.nav-link{
+.nav-list{
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-link {
   display: flex;
-  padding: 9px 16px;
+  padding: 1.08vh 1.25vw;
   align-items: center;
-  gap: 14px;
+  width: 13.36vw;
+  gap: 1.09vw;
   align-self: stretch;
   border-radius: 3px;
   text-decoration: none;
 }
 
-.nav-link.active{
+.nav-link-active {
   background: #F9F9F9;
+  display: flex;
+  padding: 1.08vh 1.25vw;
+  align-items: center;
+  gap: 1.09vw;
+  align-self: stretch;
+  border-radius: 3px;
+  text-decoration: none;
 }
 
-.nav-text{
+.nav-link-active .nav-text {
   color: var(--Black-600, #555);
   font-family: "Instrument Sans";
-  font-size: 13px;
+  font-size: 1.56vh;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
+.nav-text {
+  color: var(--Black-400, #8E8E8E);
+  font-family: "Instrument Sans";
+  font-size: 1.56vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
+.care-nav-link {
+  display: flex;
+  height: 4.33vh;
+  padding: 1.08vh 0.94vw;
+  align-items: center;
+  gap: 0.63vw;
+  align-self: stretch;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.care-nav-text {
+  font-family: "Instrument Sans";
+  font-size: 1.56vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(180deg, #9747FF 0%, #2B6F99 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.care-nav-link-active {
+  display: flex;
+  height: 4.33vh;
+  padding: 1.08vh 0.94vw;
+  align-items: center;
+  gap: 0.63vw;
+  align-self: stretch;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #EAEEFF 0%, #DFC7FF 100%);
+  text-decoration: none;
+}
+
+.care-nav-link-active .care-nav-text {
+  color: var(--Blue-600, #2740CD);
+  font-family: "Instrument Sans";
+  font-size: 1.56vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sidebar-footer {
+  display: flex;
+  padding: 1.08vh 1.25vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.63vw;
+  align-self: stretch;
+  border-radius: 3px;
+}
+
+.sidebar-user-avatar {
+  width: 3.28vw;
+  height: 5.05vh;
+  aspect-ratio: 1/1;
+  border-radius: 1000px;
+}
+
+.sidebar-user-name {
+  color: var(--Black-400, #8E8E8E);
+  font-family: "Instrument Sans";
+  font-size: 1.56vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -3,7 +3,7 @@ import Logo from "../assets/carelog logo 1.png";
 import Search from "../assets/Group.png"
 import Box from "../assets/box.png"
 import Drop from "../assets/lucide_chevron-down.png"
-import Frame from "../assets/Frame 17.png"
+import Frame from "../assets/Frame.png"
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

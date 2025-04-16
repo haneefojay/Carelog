@@ -5,7 +5,6 @@ export default function CareAI(){
         <div>
           <Header />
           <Sidebar />
-          <h2>Care AI</h2>
         </div>
         
     )

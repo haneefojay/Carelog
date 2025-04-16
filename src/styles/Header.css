@@ -4,7 +4,8 @@
   height: 7.2115vh;
   align-items: center;
   flex-shrink: 0;
-  border: 1px solid var(--Black-100, #E3E3E3);
+  border-right: 1px solid var(--Black-100, #E3E3E3);
+  border-bottom: 1px solid var(--Black-100, #E3E3E3);
 }
 
 .logo-container {

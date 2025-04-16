@@ -1,8 +1,11 @@
+import Header from '../components/Header'
+import Sidebar from '../components/Sidebar'
+
 const Patients = () => {
     return (
       <div>
-        <h1>Patients</h1>
-        <p>Manage your patients here</p>
+        <Header />
+        <Sidebar />
       </div>
     )
   }
