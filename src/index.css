@@ -3,8 +3,8 @@
 @import '/src/styles/Header.css';
 @import '/src/styles/Patientalert.css';
 @import '/src/styles/QuickAccess.css';
-@import '/src/styles/StatisticsCards.css';
 @import '/src/styles/Calender.css';
+@import '/src/styles/layout.css';
 
 * {
   box-sizing: border-box;

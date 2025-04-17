@@ -13,21 +13,21 @@
 }
 
 .sidebar-nav {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  gap: 1.20vh;
   align-self: stretch;
 }
 
 .nav-list{
+  display: flex;
+  flex-direction: column;
   list-style: none;
   padding-left: 0;
+  gap: 1.2vh;
 }
 
 .nav-link {
   display: flex;
-  padding: 1.08vh 1.25vw;
+  padding: 1.2vh 1.25vw;
   align-items: center;
   width: 13.36vw;
   gap: 1.09vw;
@@ -39,7 +39,7 @@
 .nav-link-active {
   background: #F9F9F9;
   display: flex;
-  padding: 1.08vh 1.25vw;
+  padding: 1.2vh 1.25vw;
   align-items: center;
   gap: 1.09vw;
   align-self: stretch;
@@ -50,7 +50,7 @@
 .nav-link-active .nav-text {
   color: var(--Black-600, #555);
   font-family: "Instrument Sans";
-  font-size: 1.56vh;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -59,7 +59,7 @@
 .nav-text {
   color: var(--Black-400, #8E8E8E);
   font-family: "Instrument Sans";
-  font-size: 1.56vh;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -68,7 +68,7 @@
 .care-nav-link {
   display: flex;
   height: 4.33vh;
-  padding: 1.08vh 0.94vw;
+  padding: 3vh 0.94vw;
   align-items: center;
   gap: 0.63vw;
   align-self: stretch;
@@ -78,7 +78,7 @@
 
 .care-nav-text {
   font-family: "Instrument Sans";
-  font-size: 1.56vh;
+  font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -91,7 +91,7 @@
 .care-nav-link-active {
   display: flex;
   height: 4.33vh;
-  padding: 1.08vh 0.94vw;
+  padding: 3vh 0.94vw;
   align-items: center;
   gap: 0.63vw;
   align-self: stretch;
@@ -103,7 +103,7 @@
 .care-nav-link-active .care-nav-text {
   color: var(--Blue-600, #2740CD);
   font-family: "Instrument Sans";
-  font-size: 1.56vh;
+  font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -129,7 +129,7 @@
 .sidebar-user-name {
   color: var(--Black-400, #8E8E8E);
   font-family: "Instrument Sans";
-  font-size: 1.56vh;
+  font-size: 0.8125rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

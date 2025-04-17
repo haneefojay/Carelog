@@ -1,0 +1,8 @@
+.statistics-section {
+  display: flex;
+  height: 140px;
+  align-items: center;
+  gap: 0.78vw;
+  align-self: stretch;
+}
+

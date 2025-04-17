@@ -5,7 +5,12 @@ const Patients = () => {
     return (
       <div>
         <Header />
-        <Sidebar />
+        <div className="layout">
+          <Sidebar />
+          <div className="main-content">
+            <p>Hi everyone</p>
+          </div>        
+        </div>
       </div>
     )
   }

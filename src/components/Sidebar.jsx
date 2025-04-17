@@ -15,7 +15,7 @@ const Sidebar = () => {
   const location = useLocation();
   const isActive = location.pathname === "/";
   const isActivePatients = location.pathname === "/patients"; 
-  const isActiveLab = location.pathname === "/lab-testing";
+  const isActiveLab = location.pathname === "/lab-report";
 
   return (
     <div className="sidebar">
@@ -34,9 +34,9 @@ const Sidebar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/lab-testing" className={({ isActive }) => (isActive ? "nav-link-active" : "nav-link")}>
+            <NavLink to="/lab-report" className={({ isActive }) => (isActive ? "nav-link-active" : "nav-link")}>
               <span className="nav-icon prescription-icon"><img src={isActiveLab ? ActiveLab : LabIcon} /></span>
-              <span className="nav-text">Lab Testing</span>
+              <span className="nav-text">Lab Report</span>
             </NavLink>
           </li>
           <li className="care-nav-item">
@@ -51,9 +51,7 @@ const Sidebar = () => {
         <div className="sidebar-user-avatar">
           <img src={Frame} alt="Dr. Martins James" />
         </div>
-        <div className="sidebar-user-info">
           <p className="sidebar-user-name">Dr Martins James</p>
-        </div>
       </div>
     </div>
   )
