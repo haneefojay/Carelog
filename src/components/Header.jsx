@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import "../styles/Header.css";
 import Logo from "../assets/carelog logo 1.png";
 import Search from "../assets/Group.png"
 import Box from "../assets/box.png"

@@ -4,7 +4,7 @@ import "../styles/Sidebar.css";
 import DashboardIconActive from "../assets/activedashboard.png";
 import DashboardIcon from "../assets/dashboard.png";
 import PatientIcon from "../assets/mdi_patient-outline.png";
-import LabIcon from "../assets/streamline_petri-dish-lab-equipment.png";
+import LabIcon from "../assets/lab.png";
 import CareIcon from "../assets/mingcute_ai-fill.png";
 import ActivePatient from "../assets/activepatient.png";
 import ActiveLab from "../assets/activelab.png";
