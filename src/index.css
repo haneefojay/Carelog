@@ -10,7 +10,6 @@ body {
   font-family: var(--font-sans);
   background: #FFF;
   color: var(--gray-900);
-  min-width: 1280px; /* Minimum width for desktop */
   overflow-x: auto; /* Allow horizontal scrolling if screen is smaller */
 }
 

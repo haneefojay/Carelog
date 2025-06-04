@@ -25,10 +25,7 @@
   gap: 0.625vw;
 }
 
-.logo-img {
-  width: 1.9531vw;
-  height: 2.2837vh;
-}
+
 
 .logo-text {
   color: var(--Blue-900, #0E2087);

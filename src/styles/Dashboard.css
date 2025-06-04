@@ -14,8 +14,3 @@
     gap: 0.78vw;           
     align-self: stretch;
 }
-
-.appointment{
-    width: 57.8vw; /* 740px / 1280px * 100vw */
-    height: 72.4vh; /* 602px / 832px * 100vh */
-}
