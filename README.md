@@ -1,12 +1,34 @@
-# React + Vite
+# CareLog 🩺
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CareLog** is a health data tracking and management web application designed to simplify medical recordkeeping, improve accessibility, and support data-driven healthcare decisions.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 📋 Digital recordkeeping for patients and health professionals
+- 📊 Health data visualization and simple analytics
+- 🔐 Secure login and data protection
+- 🌐 Responsive design for mobile and desktop
+- 🧠 Built with scalability in mind (supports future AI integrations)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React, CSS
+- **Backend:** FastAPI 
+- **Database:** PostgreSQL 
+- **Tools:** GitHub, Vercel, Postman
 
-## Expanding the ESLint configuration
+## 👨‍💻 My Role
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I worked as the **Frontend Developer** on CareLog, a desktop application. My responsibilities included:
+
+- Designing and implementing the user interface using React
+- Building interactive components for health record input and data visualization
+- Managing application state and ensuring smooth navigation between views
+- Handling UI responsiveness across different desktop resolutions
+- Collaborating with backend teammates to integrate APIs and validate data
+
+
+## 🧪 How to Run Locally
+```bash
+git clone https://github.com/haneefojay/carelog.git
+cd carelog
+npm install
+npm run dev
